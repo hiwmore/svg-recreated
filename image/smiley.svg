@@ -1,6 +1,14 @@
-<svg width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg"> 
-    <circle cx="110" cy="110" r="100" stroke-width="2" fill="orange" stroke="orange"/>
-    <circle cx="70" cy="70" r="15" stroke-width="2" fill="brown" stroke="brown"/>
-    <circle cx="150" cy="70" r="15" stroke-width="2" fill="brown" stroke="brown"/> 
-    <line x1="55" y1="150" x2="165" y2="150" stroke="khaki" stroke-width="8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="540" fill="none"> 
+    <symbol id="Lcircle" viewbox="0 0 340 340" >
+        <circle  cx="110" cy="110" r="100" stroke-width="2" fill="orange" stroke="orange"/>
+        <circle id="face" cx="110" cy="110" r="100" stroke-width="2" fill="orange" stroke="orange"/>
+        <circle id="lefteye" cx="70" cy="70" r="15" stroke-width="2" fill="brown" stroke="brown"/>
+        <circle id="righteye" cx="150" cy="70" r="15" stroke-width="2" fill="brown" stroke="brown"/> 
+        <line id="mouth" x1="55" y1="150" x2="165" y2="150" stroke="khaki" stroke-width="8" stroke-linecap="round"/>
+    </symbol>
 </svg>
+<!--use href="#Lcircle" y="260"></use>
+    <!--use href="#Lcircle" y="260"></use>
+    <use href="#lefteye" y="265"></use>
+    <use href="#righteye" x="10" y="265"></use>
+    <use href="#mouth"  y="270"></use !-->

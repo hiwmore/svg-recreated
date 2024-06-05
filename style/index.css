@@ -1,10 +1,9 @@
 body{
-   width: 1450px;
-   height: 1200px;
-}
+    margin: 0;
+ }
 .svg_icons {
     width: 100%;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -21,7 +20,20 @@ body{
     width: 50%;
 }
 .smiley{
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+.svg_external {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+.face{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
